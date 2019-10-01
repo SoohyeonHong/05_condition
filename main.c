@@ -29,16 +29,16 @@ int main(int argc, char *argv[]) {
 	
 	int input2;
 	
-		printf("input a number : ");
+		printf("input a number x : ");
 		scanf("%d" , &input2);
 		
 	if(input2 > 0)
 	
-		printf("%d\n", input2);
+		printf("|x| = %d\n", input2);
 		
 	else if(input2 < 0)
 	
-		printf("%d\n", -input2);
+		printf("|x| = %d\n", -input2);
 	
 	
 	
