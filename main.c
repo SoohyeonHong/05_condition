@@ -60,14 +60,16 @@ int main(int argc, char *argv[]) {
 	{	
 		printf("positive.\n");
 	}
-	else if(input3 <= 0)
+	else if(input3 < 0)
 	{
-		printf("non-positive.\n");
+		printf("negative.\n");
+	}
+	else
+	{
+		printf("zero.\n");
 	}
 	
 		
-	
-	
 	
 	return 0;
 }
