@@ -57,11 +57,14 @@ int main(int argc, char *argv[]) {
 	
 	if(input3 > 0)
 	
+	{	
 		printf("positive.\n");
-	
+	}
 	else if(input3 <= 0)
-	
+	{
 		printf("non-positive.\n");
+	}
+	
 		
 	
 	
