@@ -32,16 +32,37 @@ int main(int argc, char *argv[]) {
 		printf("input a number x : ");
 		scanf("%d" , &input2);
 		
-	if(input2 > 0)
-	
-		printf("|x| = %d\n", input2);
 		
-	else if(input2 < 0)
-	
+		
+	if(input2 > 0)
+	{
+		printf("|x| = %d\n", input2);
+		printf("|x| + 5 = %d\n", input2+5);
+	}
+	else
+	{
 		printf("|x| = %d\n", -input2);
+		printf("|x| + 5 = %d\n", +input2+5);
+	}
 	
 	
 	
+	//  #3
+	
+	int input3; 
+	
+		printf("input a number : ");
+		scanf("%d", &input3);
+	
+	
+	if(input3 > 0)
+	
+		printf("positive.\n");
+	
+	else if(input3 <= 0)
+	
+		printf("non-positive.\n");
+		
 	
 	
 	
