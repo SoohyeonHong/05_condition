@@ -69,7 +69,15 @@ int main(int argc, char *argv[]) {
 		printf("zero.\n");
 	}
 	
-		
+	//  #4	
 	
+	int number;
+	
+		printf("input a number :");
+		scanf("%d", &number);
+		
+	switch(number){
+	}
+		
 	return 0;
 }
